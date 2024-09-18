@@ -1,7 +1,7 @@
 const getTotalBalanceByGender = (users, gender) => 
     users
-      .filter(user => user.gender === gender) // Фільтруємо користувачів за статтю
-      .reduce((total, user) => total + user.balance, 0); // Обчислюємо загальний баланс
+      .filter(user => user.gender === gender) 
+      .reduce((total, user) => total + user.balance, 0); 
   
 
 
